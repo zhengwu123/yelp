@@ -1,14 +1,13 @@
-# PHP Starter Overview
+#PinStories Overview
 
-The PHP Starter demonstrates a simple, reusable PHP web application.
+Pinstories is a web application for users to share stories according to locations.
 
-## Run the app locally
-
-1. Download and extract [PHP][]
-2. Add the extracted directory to your PATH environment variable
-3. Download and extract the starter code from the Bluemix UI
-4. cd into the app directory
-5. Run `php -S localhost:8000` to start the app using the built-in development web server
-6. Access the running app in a browser at http://localhost:8000
-
-[PHP]: http://php.net/downloads.php
+##User Stories
+- [X] As a user, I would like to create an account.
+- [X] As a user, I would like to login with my account.
+- [X] As a user, I would like to put pins with photo and stories.
+- [ ] As a user, I would like to reply to a post
+- [ ] As a user, I would like to like or dislike a post
+- [ ] As a user, I would like to search for friends.
+- [X] As a user, I would like to view pins around me.
+- [ ] As a user, I would like to have a profile.
