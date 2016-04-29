@@ -14,5 +14,6 @@ Pinstories is a web application for users to share stories according to location
 - [ ] As a user, I would like to add video links in my post.
 - [ ] As a user, I would like to reset my password.
 - [ ] As a user, I would like to filter pins by gender, distance,etc
-- [X] As a user, I would like to chat with my friends.
+- [ ] As a user, I would like to chat with my friends.
 - [ ] As a user, I would like to set my pin private, friends only, public, or can be seen by assigned person.
+- [ ] As a user, I would like to set travel pins there helps me find accompany to travel together with me.
