@@ -46,6 +46,9 @@ $retval = mysqli_query($connection,$sql);
         <!-- Custom CSS -->
         <link href="css/simple-sidebar.css" rel="stylesheet">
         <link rel="stylesheet" href="css/mainApp.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     </head>
     <body>
@@ -68,7 +71,16 @@ $retval = mysqli_query($connection,$sql);
                         </div>
                     </li>
                     <li>
-                        <a href="#">My Profile</a>
+                       <!--a href="#">My Profile</a-->
+                       <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">My
+                    Profile
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                    <li><a href="#">Avatar</a></li>
+                    <li><a href="#">Change Password</a></li>
+                    </ul>
+                        </div>
                     </li>
                     <li>
                         <a href="#" id="myPins">My Pins</a>
