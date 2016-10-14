@@ -1,0 +1,11 @@
+[17-Apr-2016 04:02:59 UTC] PHP Fatal error:  Call to undefined function http_redirect() in /home/zhengwu/public_html/index.php on line 80
+[23-Apr-2016 19:31:00 UTC] PHP Fatal error:  Call to undefined function domxml_new_doc() in /home/zhengwu/public_html/parse_pin.php on line 39
+[23-Apr-2016 19:31:59 UTC] PHP Fatal error:  Call to undefined function domxml_new_doc() in /home/zhengwu/public_html/parse_pin.php on line 39
+[23-Apr-2016 19:32:41 UTC] PHP Fatal error:  Call to undefined function domxml_new_doc() in /home/zhengwu/public_html/parse_pin.php on line 39
+[23-Apr-2016 19:50:32 UTC] PHP Fatal error:  Call to undefined method DOMDocument::create_element() in /home/zhengwu/public_html/parse_pin.php on line 40
+[23-Apr-2016 19:52:41 UTC] PHP Fatal error:  Call to undefined method DOMDocument::create_element() in /home/zhengwu/public_html/parse_pin.php on line 51
+[24-Apr-2016 04:08:49 UTC] PHP Fatal error:  Uncaught exception 'DOMException' with message 'Wrong Document Error' in /home/zhengwu/public_html/mainPagePin.php:33
+Stack trace:
+#0 /home/zhengwu/public_html/mainPagePin.php(33): DOMNode->appendChild(Object(DOMElement))
+#1 {main}
+  thrown in /home/zhengwu/public_html/mainPagePin.php on line 33
